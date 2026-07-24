@@ -1,0 +1,13 @@
+{
+    "name": "abdallah/php-pdf-automation-demo",
+    "description": "PHP PDF Document Automation - Invoice & Report Generator",
+    "require": {
+        "php": ">=8.1",
+        "tecnickcom/tcpdf": "^6.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PdfAutomation\\": "src/"
+        }
+    }
+}
